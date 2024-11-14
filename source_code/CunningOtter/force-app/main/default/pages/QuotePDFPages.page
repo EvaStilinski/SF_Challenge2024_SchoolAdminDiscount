@@ -1,0 +1,6 @@
+<apex:page standardController="Quote" renderAs="pdf">
+    <h1>Quote: {!Quote.Name}</h1>
+    <p>Amount: {!Quote.TotalPrice}</p>
+    <p>Quote Number: {!Quote.QuoteNumber}</p>
+    <!-- Add more fields as needed -->
+</apex:page>
